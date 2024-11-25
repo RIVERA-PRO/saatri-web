@@ -1,0 +1,69 @@
+.FooterContain{
+    padding: 50px 10%;
+    background: linear-gradient(90deg, var(--color2) 1%, var(--color1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.FooterContain img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footerText h3{
+    color: var(--blanco);
+}
+.footerText h2{
+    color: var(--blanco);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footerText a{
+
+    color: var(--blanco);
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+.socials a{
+   font-size: 20px;
+}
+.footerText p{
+    width: 40vh;
+    color: var(--blanco);
+}
+.btnAnch{
+    background-color: var(--blanco);
+    color: var(--color1)!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 8rem;
+    text-align: center;
+    justify-content: center;
+}
+.footerText .BtnContact{
+    background-color: var(--blanco);
+    padding: 7px;
+    color: var(--color1);
+    border-radius: 10px;
+   
+}
+@media (max-width: 700px){
+    .FooterContain{
+    margin: 0;
+    padding: 20px 4%;
+    flex-direction: column;
+}
+}

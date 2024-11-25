@@ -1,0 +1,86 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 6% ;
+    gap: 2rem;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact-container iframe{
+    width: 70vh;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:  0 20px;
+    width: 70vh;
+}
+
+.form fieldset{
+    padding: 2px;
+    border-radius: 10px;
+   color: var(--text-color2);
+   border: 1px solid  var(--text-color2);
+}
+.form fieldset input{
+    padding: 7px 20px;
+    width: 100%;
+    border: none;
+    
+}
+.form legend{
+    padding: 0 10px;
+    color: var(--text-color2);
+}
+.checksGrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.checksGrap input{
+    padding: 0!important;
+    width: auto!important;
+}
+.checksGrap label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.form button{
+    background: linear-gradient(90deg, var(--color2) 1%, var(--color1) 100%);
+   color: var(--blanco);
+   padding: 15px;
+   border: none;
+   border-radius: 10rem;
+   font-size: 15px;
+   cursor: pointer;
+   margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    .contact-container{
+        padding: 150px 2% 50px;
+        gap: 2rem;
+    }
+    .contact-container iframe{
+        width: 100%;
+    }
+    .form{
+        padding:  0 0px;
+        width: 100%;
+    }
+}
