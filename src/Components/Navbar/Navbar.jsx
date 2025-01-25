@@ -19,7 +19,7 @@ export default function Navbar() {
                     <Anchor to={contact.linkedin} target="_blank"><i className='fa fa-linkedin'></i></Anchor>
                     <Anchor to={contact.facebook} target="_blank"><i className='fa fa-facebook'></i></Anchor>
                     <Anchor to={contact.twitter} target="_blank"><i className='fa fa-twitter'></i></Anchor>
-                    <Anchor to='/login' ><i className='fa fa-user'></i> Iniciar Sesion</Anchor>
+                    <Anchor to='/auth' ><i className='fa fa-user'></i> Iniciar Sesion</Anchor>
 
                 </div>
             </div>
@@ -38,18 +38,16 @@ export default function Navbar() {
                 <div className='deFLexNavs'>
 
                     <div className='enlaces'>
-                        <Anchor to={`/`} onClick={() => {
-                            document.querySelector('.heroContain').scrollIntoView({ behavior: 'smooth' });
-                        }}>Inicio</Anchor>
+                        <Anchor to={`/`}>Inicio</Anchor>
 
                         <Anchor to={`/`} onClick={() => {
-                            document.querySelector('.aboutContain').scrollIntoView({ behavior: 'smooth' });
+                            document.querySelector('#aboutContain').scrollIntoView({ behavior: 'smooth' });
                         }}>Quienes Somos</Anchor>
                         <Anchor to={`/`} onClick={() => {
-                            document.querySelector('.ServiciosContain').scrollIntoView({ behavior: 'smooth' });
+                            document.querySelector('#ServiciosContain').scrollIntoView({ behavior: 'smooth' });
                         }}>Servicios</Anchor>
                         <Anchor to={`/`} onClick={() => {
-                            document.querySelector('.Contact').scrollIntoView({ behavior: 'smooth' });
+                            document.querySelector('#Ordenanzas').scrollIntoView({ behavior: 'smooth' });
                         }}>Ordenanzas</Anchor>
                     </div>
 

@@ -26,8 +26,7 @@ export default function Gerencia() {
                         <span>{gerencia.name}</span>
                         {/* Dividir el texto en dos líneas */}
                         <p>
-                            {gerencia.tipo.replace("Gerente", "Gerente")} <br />
-                            {gerencia.tipo.split("Gerente")[1]}
+                            {gerencia.tipo}
                         </p>
                     </div>
                 ))}

@@ -30,7 +30,7 @@ a{
  body{
   background-color: var(--blanco);
  }
- a, .heroText, .Realidad,.cardsServicios {
+ a, .heroText, .Realidad,.cardsServicios , .Bg h1{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;

@@ -17,7 +17,6 @@ nav{
     height: 4rem;
     transition: all 0.2s linear;
     padding: 0 10% ;
-    border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.792);
     backdrop-filter: blur(10px);
     

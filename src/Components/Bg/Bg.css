@@ -1,0 +1,26 @@
+.Bg{
+    background-image: url(../../images/bg.png);
+    height: 50vh;
+    background-size: cover;   
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px 10% 0;
+}
+.Bg h1 {
+    color: var(--blanco);
+    font-size: 4em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 900px) {
+    .Bg h1{
+        font-size: 2em;
+    }
+    .Bg{
+        height: 30vh;
+        justify-content: center;
+        padding: 50px 6% 0;
+    }
+}
